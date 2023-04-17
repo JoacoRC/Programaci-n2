@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil_HTML</title>
+</head>
+<body>
+    <h1>
+        Este soy yo <hr>
+    </h1>
+    <fieldset>
+        <label for="ESTUDIANTE"></label>
+        <input type="text"
+        readonly=""
+        value="ESTUDIANTE"> <br>
+
+        <label for="nombreCompleto">Nombre y Apellido :</label>
+        <input type="text"
+        placeholder="Joaquin Rodriguez"> <br>
+
+        <label for=""> Email :</label>
+        <input type="text"
+        name="email"
+        id="email"
+        placeholder="joacorod@live.com"> <br>
+
+        <label for=""> Edad :</label>
+        <input type="number"
+        min="18"
+        max="60"
+        name="edad"
+        id="edad"
+        placeholder="18-60"> <br>
+
+        <label for="Seleccionable"> Nacionalidad:</label>
+        <select name="seleccionable" id="seleccionable"> 
+<option value="argentino">Argentina</option>
+<option value="bolivia">Bolivia</option>
+<option value="brasil">Brasil</option>
+<option value="chile">Chile</option>
+<option value="colombia">Colombia</option>
+<option value="ecuador">Ecuador</option>
+<option value="paraguay">Paraguay</option>
+<option value="uruguay">Uruguay</option>
+<option value="venezuela">Venezuela</option> 
+        </select><br>
+
+        <label for="laboral"> Laboral :</label>
+        <select name="laboral" id="laboral"> 
+<option value="desempleado">Desempleado</option>
+<option value="busqueda">En busqueda Laboral</option>
+<option value="part time">Trabajo Part Time</option>
+<option value="full time">Trabajo Full Time</option>
+        </select><br>
+    </fieldset>
+<h3><center> Gustos Personales </center></h3> 
+<fieldset>
+        <label for="musica">Música: </label>
+        <input type="text"
+        placeholder="Cumbia chapa y Metaguacha"> <br>
+
+        <label for="">Comida: </label>
+        <select name="comida" id="comida">
+            <option value="asado">Asado</option>
+            <option value="panchos">Panchos</option>
+            <option value="pizza">Pizza</option>
+            <option value="vegano">Vegano</option>
+            <option value="verduras">Verduras</option>
+        </select> <br>
+       
+        <label for="Contraseña"> Contraseña: </label>
+        <input type="password"
+        id="password"
+        name=""
+        required=""
+        placeholder="Ejem:mimamamemima"
+        maxlength="7"> <br>
+        <label for="checkbox">Recordar</label>
+        <input type="checkbox"
+        name="check"
+        id="chec"> <br>
+
+        <label for="">Formulario </label>
+        <input type="submit" value="Enviar"><br>
+    </fieldset>
+    
+</body>
+</html>
